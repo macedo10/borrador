@@ -10,14 +10,19 @@ html body{
   font-family: 'PT Sans', sans-serif;
   background-color: white;
   height: 100hv;
+  /*background-image: url("/images/Background-League-Of-Legends.jpg");*/
+  background-repeat: no-repeat;
 }
 
+/*estilo header - inicio*/
 .main-header .container,.main-header .row {
   height: 100px;
   
 }
 
-
+p{
+  margin:0;
+}
 
 ol, ul {
   margin:0;
@@ -45,6 +50,7 @@ ol, ul {
 
 .img1 {
   width: 100%;
+  
 
 }
 
@@ -68,12 +74,58 @@ z-index: 10;
 .dropdown-menu{
   z-index: 10;
 }
+/*estilo header - fin*/
 
-.contenedor{
+/*estilo main - inicio*/
+
+h3, h4 {
+  margin-top: 28px;
+}
+.contenedor-img{
   width: 100px;
   height: 100px;
+  display: inline-block;
+  margin: 0;
 }
 
-@media (min-width: 768px){
+.nombreJuego, .precioJuego {
+  display: block;
+}
+
+.productosHome{
+ display: flex;
+ border: solid 1px rgb(161, 160, 160);
+ color: #000;
 
 }
+
+.col-productos{
+  margin: 5px 0;
+}
+
+/*estilo main - fin*/
+
+/*estilo footer - inicio*/
+footer{
+  margin: 5px 0;
+  background-color: rgba(8, 14, 51);
+}
+
+.logo-footer{
+  width: 80px;
+}
+
+.redes-sociales{
+  display: block;
+  text-align: end;
+  margin-top:33px;
+}
+
+footer  i{
+  color: beige;
+  margin: 0 2px;
+  text-align: right;
+  
+}
+
+/*estilo footer - fin*/
